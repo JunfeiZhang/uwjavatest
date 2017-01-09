@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/uwjavatest.iml" filepath="$PROJECT_DIR$/.idea/modules/uwjavatest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uwjavatest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/uwjavatest_main.iml" group="uwjavatest" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uwjavatest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/uwjavatest_test.iml" group="uwjavatest" />
     </modules>
   </component>
 </project>

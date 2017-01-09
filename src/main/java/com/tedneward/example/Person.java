@@ -23,14 +23,17 @@ public class Person implements Comparable<Person>{
     count++;
   }
 
+  // returns the total number of Person instances created
   public int count(){
     return count;
   }
 
+  // Person with higher salary gets higher priority
   public int compareTo(Person other){
     return (int) (other.getSalary() - this.getSalary());
   }
 
+  // two Person equals only if they have same name and age
   @Override
   public boolean equals(Object other){
     if(other instanceof Person){
@@ -39,7 +42,6 @@ public class Person implements Comparable<Person>{
     }
     return false;
   }
-
 
   public int getAge() {
     return age;
@@ -126,6 +128,7 @@ public class Person implements Comparable<Person>{
   }
 
   public static class AgeComparator implements Comparator<Person> {
+    // Person with smaller age gets higher priority
     public int compare(Person p1, Person p2){
       return p1.age - p2.age;
     }
